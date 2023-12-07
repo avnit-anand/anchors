@@ -1,0 +1,27 @@
+.inputField {
+  max-width: 12vw;
+  height: 20%;
+  width: 100%;
+  font-size: 1.125vw;
+  padding: 0.625vw 1.25vw 0.75vw 1.25vw;
+  border-radius: 999px;
+  color: white;
+  background-color: #101010;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inputField:hover{
+  transition: 0.3s ease-in-out;
+  background-color: white;
+  color: #101010;
+  border: 1px solid #101010;
+}
+
+.text{
+  padding-left: 0.5%;
+  vertical-align: middle;
+}

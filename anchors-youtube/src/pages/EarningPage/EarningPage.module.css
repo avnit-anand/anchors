@@ -1,0 +1,9 @@
+.earningPageContainer{
+  position: relative;
+  height: 90vh;
+}
+.popup{
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}

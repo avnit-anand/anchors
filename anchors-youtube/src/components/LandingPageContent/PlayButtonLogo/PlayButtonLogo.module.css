@@ -1,0 +1,24 @@
+.imgContainer{
+  width: 20vw;
+  height: 20vw;
+  background-color: rgba(255, 255, 255, 0.06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50%;
+}
+
+.play{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 2.5vw 0 2.5vw 5vw;
+  border-color: transparent transparent transparent #323232;
+  position: absolute; /* Set play button to absolute positioning */
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  color: #323232;
+}

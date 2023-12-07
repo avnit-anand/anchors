@@ -1,0 +1,17 @@
+.homePageContainer {
+  height: 100vh;
+  background-color: #101010;
+  position: relative;
+}
+
+.homePageContent {
+  max-width: 80%;
+  margin: 0 10%;
+}
+
+.playButtonLogoContainer{
+  position: absolute;
+  right: -4vw;
+  bottom: -4vw;
+  overflow: hidden;
+}
