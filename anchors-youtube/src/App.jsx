@@ -8,9 +8,9 @@ function App() {
   return (
     <div className={styles.appContainer}>
       <HomePage />
-      {/* <RequestCallBackPopup/> */}
-      {/* <YouTubeVideoInfo/> */}
-      <TopEarnerVideo/>
+      <RequestCallBackPopup/>
+      <YouTubeVideoInfo/>
+      {/* <TopEarnerVideo/> */}
     </div>
   );
 }
